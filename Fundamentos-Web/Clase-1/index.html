@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Etiquetas Meta -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de pestaña -->
+    <title>Ejemplo HTML</title>
+  </head>
+  <body>
+    <!-- Titulos -->
+    <h1>Titulo h1</h1>
+    <h2>Titulo h2</h2>
+    <h3>Titulo h3</h3>
+    <h4>Titulo h4</h4>
+    <h5>Titulo h5</h5>
+    <h6>Titulo h6</h6>
+
+    <!-- Párrafos separados por 2 etiquetas <br> -->
+    <p>
+      Este es el primer parrafo. <br /><br />
+      Este es el segundo parrafo separado con 2 etiquetas br.
+    </p>
+
+    <!-- Párrafos separados por etiquetas <p> -->
+    <p>Este es el primer parrafo en una etiqueta p.</p>
+    <p>Este es el segundo parrafo en otra etiqueta p.</p>
+
+    <!-- Párrafos separados por 1 etiqueta <br> -->
+    <p>
+      Este es el primer parrafo. <br />
+      Este es el segundo parrafo separado con una etiqueta br.
+    </p>
+
+    <!-- Trazado de línea con hr -->
+    <hr />
+
+    <!-- Estilos de texto -->
+    <div>
+      <p><b>Texto en negrita</b></p>
+      <p><strong>Texto importante</strong></p>
+      <p><i>Texto en cursiva</i></p>
+      <p><em>Texto enfatizado</em></p>
+      <p><small>Texto pequeño</small></p>
+      <p><mark>Texto resaltado</mark></p>
+      <p><del>Texto tachado</del></p>
+      <p><ins>Texto subrayado</ins></p>
+      <p>Texto en <sub>subindice</sub></p>
+      <p>Texto en <sup>superindice</sup></p>
+    </div>
+
+    <!-- Enlace con atributo href (indica la ruta del enlace) 
+         y target="_blank" (abre el enlace en otra pestaña) -->
+    <a
+      href="https://learning.skillnest.com/escritorio/my-courses/"
+      target="_blank"
+      >Plataforma de Estudio</a
+    >
+
+    <!-- Listas desordenadas -->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!-- Listas ordenadas -->
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <!-- Estructura básica de una tabla -->
+    <table border="1">
+      <thead>
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+        <th>Encabezado 3</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dato 1</td>
+          <td>Dato 2</td>
+          <td>Dato 3</td>
+        </tr>
+        <tr>
+          <td>Dato 4</td>
+          <td>Dato 5</td>
+          <td>Dato 6</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Etiqueta Img
+    Atributos:
+    * src -> fuente de la imagen
+    * width -> ancho (en pixeles o con porcentaje)
+    * height -> alto (en pixeles o con porcentaje)
+    * alt -> texto alternativo para cuando no se carga la imagen
+    * title -> texto que se muestra cuando pasas el mouse por encima de la imagen
+    -->
+    <img
+      src="https://enciclopediaiberoamericana.com/wp-content/uploads/2023/01/flor-girasol.jpg"
+      width="300px"
+      height="100px"
+      alt="Flor amarilla"
+      title="Flor"
+    />
+
+    <!-- Etiqueta Video
+    Atributos:
+    * src -> fuente del video
+    * autoplay -> para reproducir automáticamente
+    * controls -> incluye los controles de play/pause y volumen
+    * loop -> reproduce el video infinitamente
+    * poster -> agrega una miniatura al video
+    -->
+    <video src="#" controls loop autoplay poster="#">
+      Tu navegador no es compatible.
+    </video>
+
+    <!-- Etiqueta Audio
+    Atributos:
+    * src -> fuente del audio
+    * autoplay -> para reproducir automáticamente
+    * controls -> incluye los controles de play/pause y volumen
+    -->
+    <audio src="#" controls autoplay>Tu navegador no es compatible.</audio>
+
+    <!-- Etiqueta Iframe -->
+    <iframe src="#" width="" height="">
+      Texto para cuando el navegador no reconoce la etiqueta iframe.
+    </iframe>
+
+    <!--
+        INFO SOBRE ETIQUETAS MULTIMEDIA:
+            - Etiqueta IMG: https://developer.mozilla.org/es/docs/Web/HTML/Element/img
+            - Etiqueta VIDEO: https://developer.mozilla.org/es/docs/Web/HTML/Element/video
+            - Demo VIDEO: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+            - Etiqueta AUDIO: https://developer.mozilla.org/es/docs/Web/HTML/Element/audio
+            - Demo AUDIO: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+            - Etiqueta IFRAME: https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe
+    -->
+
+    <!-- Formularios
+    Atributos:
+    * action -> Ruta de archivo que procesa los datos del form.
+    * method -> GET o POST
+    * enctype -> application/x-www-form-urlencoded , multipart/form-data o text/plain 
+    -->
+    <form action="#" method="GET" enctype="multipart/form-data">
+      <!-- Tipos de inputs -->
+      <input name="..." type="text" />
+      <input name="..." type="password" />
+      <input name="..." type="radio" value="Opción 1" />
+      <input name="..." type="checkbox" value="Opción 2" />
+      <input name="..." type="color" />
+      <input name="..." type="email" />
+      <input name="..." type="file" />
+      <input name="..." type="hidden" />
+      <input name="..." type="image" />
+      <input name="..." type="number" />
+      <input name="..." type="range" />
+      <input name="..." type="search" />
+      <input name="..." type="tel" />
+      <input name="..." type="time" />
+      <input name="..." type="date" />
+      <input name="..." type="datetime" />
+      <input name="..." type="datetime-local" />
+      <input name="..." type="week" />
+      <input name="..." type="month" />
+      <input name="..." type="url" />
+
+      <textarea></textarea>
+
+      <label for="texto">Label Texto:</label>
+      <input name="texto" type="text" placeholder="Un texto..." />
+
+      <select name="talles">
+        <option value="L">Large</option>
+        <option value="M">Medium</option>
+        <option value="S">Small</option>
+      </select>
+
+      <input name="..." type="submit" value="Submit" />
+      <input name="..." type="reset" value="Reset" />
+      <input name="..." type="button" value="Button" />
+    </form>
+  </body>
+</html>
