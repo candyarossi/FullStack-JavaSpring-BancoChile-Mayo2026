@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX MODEL</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+      }
+
+      main {
+        width: 70%;
+      }
+
+      p {
+        color: black;
+        background-color: #dd7e6b;
+        margin: 20px;
+      }
+
+      div {
+        border: 1px solid #fce5cd;
+        background-color: #fce5cd;
+      }
+
+      div div {
+        border: 4px solid red;
+        background-color: #f4cccc;
+        margin: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            euismod risus eu velit feugiat auctor. Ut in fringilla enim. Aenean
+            pharetra, lectus sed efficitur vestibulum, magna nulla accumsan
+            nisl, id finibus dolor augue vitae elit. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Vestibulum nec tellus sed massa ornare
+            posuere ac non ipsum.
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+
+      <p style="display: inline; padding: 3px">Content</p>
+      <p style="display: inline; padding: 3px; background-color: #f4cccc">
+        Padding
+      </p>
+      <p
+        style="
+          display: inline;
+          padding: 3px;
+          background-color: transparent;
+          border: 4px solid red;
+        "
+      >
+        Border
+      </p>
+      <p style="display: inline; padding: 3px; background-color: #fce5cd">
+        Margin
+      </p>
+    </main>
+  </body>
+</html>
