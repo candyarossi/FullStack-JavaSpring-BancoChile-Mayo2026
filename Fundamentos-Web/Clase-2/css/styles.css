@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AR+Guides&display=swap");
+
+/* Código CSS */
+
+button {
+  background-color: red;
+  color: beige;
+}
+
+/* Tipos de SELECTORES */
+
+h2 {
+  color: aqua;
+}
+
+.imagen {
+  width: 100px;
+  height: 200px;
+}
+
+#img1 {
+  margin: 10px;
+}
+
+/* INLINE > ID > CLASS > ETIQUETAS */
+
+.imagen {
+  width: 100px;
+}
+
+img {
+  width: 200px;
+}
+
+#img1 {
+  width: 300px;
+}
+
+img {
+  background-color: white;
+}
+
+img {
+  background-color: aquamarine;
+}
+
+/* PROPIEDADES CSS */
+
+p {
+  /* Textos */
+  color: #860a9f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 22px;
+}
+
+body {
+  height: 100vw;
+
+  /* Fondos */
+  background-color: bisque;
+  background-image: url("/media/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  background-attachment: fixed;
+}
+
+/* FUENTES */
+
+h3 {
+  font-family: "Playwrite AR Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stick";
+  src: url("/media/StickNoBills-Regular.ttf");
+}
+
+h3 {
+  font-family: "Stick";
+}
+
+/* BOX MODEL */
+
+.boxModel {
+  background-color: orange;
+
+  width: 200px;
+  height: 200px;
+
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+  margin: 40px 70px 50px 30px;
+  margin: 40px 60px;
+  margin: 40px;
+
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding: 10px 30px 50px 20px;
+  padding: 20px 50px;
+  padding: 20px;
+
+  border-width: 6px;
+  border-color: red;
+  border-style: groove;
+  border: solid 7px red;
+
+  border-top: dashed 7px red;
+  border-left: dotted 10px yellow;
+  border-bottom: solid 5px green;
+  border-right: groove 12px blue;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+}
