@@ -1,0 +1,80 @@
+/* SELECTOR UNIVERSAL */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+/* S. DESCENDENTE */
+
+.texto p {
+  color: blue;
+}
+
+/* S. DESCENDENTE DIRECTO */
+
+.texto > p {
+  color: red;
+}
+
+/* S. de ATRIBUTO */
+
+input {
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid green;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+}
+
+/* DISPLAY */
+
+section > p,
+section > span {
+  background-color: bisque;
+  margin: 10px;
+  width: 150px;
+}
+
+section > p {
+  /* display: inline; */
+  display: inline-block;
+}
+
+section > span {
+  display: block;
+}
+
+section > span {
+  display: none;
+}
+
+/* POSITION */
+
+.divs {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#div2 {
+  background-color: orangered;
+  position: absolute;
+  /*top: 40px;
+    left: 30px;*/
+  bottom: 10px;
+  right: 10px;
+  /* z-index: -1; */
+}
