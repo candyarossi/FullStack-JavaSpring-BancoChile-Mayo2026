@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Junge&display=swap");
+
+/* Estilos Generales */
+
+body {
+  background-color: #ad0302;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Junge", serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+hr {
+  height: 5px !important;
+  background-color: white;
+  opacity: 1 !important;
+}
+
+nav,
+span {
+  border-radius: 5px;
+}
+
+nav {
+  background-color: #8c0201;
+}
+
+span {
+  background-color: white;
+  color: #fa0704;
+}
+
+.redes {
+  text-decoration: none;
+  color: white;
+  height: 70px;
+  width: 70px;
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 50%;
+  display: none;
+}
+
+#logo,
+#burger {
+  display: block;
+}
+
+.redes ion-icon {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.redes:hover {
+  color: white;
+}
+
+#brand {
+  height: 60px;
+  width: 60px;
+  margin-left: 4px;
+}
+
+/* Estilos sobreescritos de Bootstrap */
+
+.nav {
+  border-radius: 5px;
+  background-color: #8c0201;
+}
+
+.card,
+.btn-primary {
+  background-color: #fa0704;
+}
+
+.btn-primary {
+  border: 0;
+  font-family: "Junge", serif;
+  font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+  background-color: #fa0704;
+}
+
+.navbar-brand {
+  margin-top: -22px;
+  display: block;
+}
+
+/* Media Queries Bootstrap */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  #burger {
+    display: none;
+  }
+  .redes {
+    display: block;
+  }
+}
+
+@media (min-width: 1400px) {
+}
