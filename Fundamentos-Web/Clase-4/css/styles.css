@@ -37,3 +37,47 @@
   background-color: bisque;
   margin: 10px;
 }
+
+/* FLEXBOX */
+
+.padre-flex,
+.padre-flex-2,
+.padre-flex-3 {
+  display: flex;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /*
+  - flex-start
+  - flex-end
+  - center
+  - space-between
+  - space-around
+  - space-evenly
+  */
+}
+
+.padre-flex-2 {
+  align-items: stretch;
+  /*
+  - stretch
+  - flex-start
+  - flex-end
+  - center
+  - baseline
+  */
+}
+
+.padre-flex-3 {
+  align-content: stretch;
+  /*
+  - stretch
+  - flex-start
+  - flex-end
+  - center
+  - space-between
+  - space-around
+  - space-evenly
+  */
+}
