@@ -19,9 +19,43 @@ main {
   justify-content: stretch;
 }
 
+/* Estilos del disp. GRANDE -> [0px - 1285px] */
+
 div {
   width: 25%;
   padding: 20px;
   margin: 5px;
   background-color: lightgray;
+}
+
+/* Estilos del disp. MEDIANO -> [0px - 890px] */
+
+@media (max-width: 890px) {
+  div {
+    width: 40%;
+  }
+}
+
+/* Estilos del disp. PEQUEÑO -> [0px - 590px] */
+
+@media (max-width: 590px) {
+  div {
+    width: 95%;
+  }
+}
+
+/* Media Query con rango cerrado [590px - 890px] */
+
+@media (min-width: 590px) and (max-width: 890px) {
+  div {
+    background-color: lightpink;
+  }
+}
+
+/* Media Query con orientación de pantalla */
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  div {
+    background-color: lightblue;
+  }
 }

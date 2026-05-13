@@ -94,6 +94,11 @@ span {
   display: block;
 }
 
+.card-title,
+.card-text {
+  color: white;
+}
+
 /* Media Queries Bootstrap */
 
 @media (min-width: 576px) {
