@@ -1,0 +1,34 @@
+body {
+  background-color: lightgrey;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  padding: 15px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#respuesta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: grey;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+}
+
+img {
+  max-width: 250px;
+}

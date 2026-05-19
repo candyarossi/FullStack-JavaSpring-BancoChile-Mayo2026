@@ -19,8 +19,9 @@
 - [Clase 6: Fundamentos de Javascript](./Fundamentos-Web/Clase-6/)
 - [Clase 7: Arrays, Objetos y Funciones](./Fundamentos-Web/Clase-7/)
 - [Clase 8: DOM & Eventos](./Fundamentos-Web/Clase-8/)
+- [Clase 9: API's & AJAX](./Fundamentos-Web/Clase-9/)
 
-<!-- 
+<!--
 
 ## Fundamentos de Java
 
