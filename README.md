@@ -20,6 +20,7 @@
 - [Clase 7: Arrays, Objetos y Funciones](./Fundamentos-Web/Clase-7/)
 - [Clase 8: DOM & Eventos](./Fundamentos-Web/Clase-8/)
 - [Clase 9: API's & AJAX](./Fundamentos-Web/Clase-9/)
+- [Actividad: Manos a la Masa](./Fundamentos-Web/Manos-a-la-masa/)
 
 <!--
 
