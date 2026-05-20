@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: dodgerblue;
+  color: white;
+  padding: 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 35px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#container {
+  display: none;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(211, 211, 211, 0.2);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.3) 5px 7px 7px 0px;
+  margin: 10px;
+  height: 200px;
+  width: 120px;
+  padding: 20px;
+}
+
+.card > h3 {
+  padding: 10px 0;
+}
+
+.card > p {
+  padding: 10px 0;
+}
+
+.card ion-icon {
+  font-size: 64px;
+}
+
+[name="cloudy"] {
+  color: lightgrey;
+}
+
+[name="rainy"] {
+  color: grey;
+}
+
+[name="sunny"] {
+  color: goldenrod;
+}
+
+[name="partly-sunny"] {
+  color: lightsteelblue;
+}
+
+footer > div {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer button {
+  padding: 5px;
+  background-color: goldenrod;
+}
