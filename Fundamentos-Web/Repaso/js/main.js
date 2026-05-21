@@ -20,3 +20,31 @@ const climas = [
     estado: "Soleado",
   },
 ];
+
+// Funcionalidad 1
+alert("Cargando Reporte del Clima.");
+
+// Funcionalidad 2
+document.querySelector("#btnAcepto").addEventListener("click", function () {
+  document.querySelector("#cookies").style.display = "none";
+});
+
+// Funcionalidad 3
+document.querySelectorAll(".ciudades").forEach((ciudad) => {
+  ciudad.onclick = (event) => {
+    document.querySelector("#ciudad").innerText = event.target.innerText;
+
+    let cards = document.querySelectorAll(".card");
+
+    for (let card of cards) {
+      let nroRandom = Math.floor(Math.random() * 4);
+      let clima = climas[nroRandom];
+
+      card.children[0].innerHTML = clima.img;
+      card.children[2].innerText = clima.estado;
+      card.children[3].innerText = clima.temperatura;
+    }
+
+    document.querySelector("#container").style.display = "flex";
+  };
+});

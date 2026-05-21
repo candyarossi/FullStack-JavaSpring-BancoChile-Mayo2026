@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiempo Local</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tiempo Local</h1>
+      <nav>
+        <ul>
+          <li class="ciudades">Buenos Aires</li>
+          <li class="ciudades">Ciudad de México</li>
+          <li class="ciudades">Santiago</li>
+          <li class="ciudades">Sao Paulo</li>
+          <li class="ciudades">Quito</li>
+        </ul>
+        <label for="medida">Mostrar temperatura en:</label>
+        <select name="medida" id="medida">
+          <option value="C">°C</option>
+          <option value="F">°F</option>
+        </select>
+      </nav>
+    </header>
+    <main>
+      <h2 id="ciudad"></h2>
+      <div id="container">
+        <div class="card">
+          <div></div>
+          <h3>Lunes</h3>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="card">
+          <div></div>
+          <h3>Martes</h3>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="card">
+          <div></div>
+          <h3>Miércoles</h3>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="card">
+          <div></div>
+          <h3>Jueves</h3>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="card">
+          <div></div>
+          <h3>Viernes</h3>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="cookies">
+        <p>
+          Detente! Tiempo de cookies. Usamos cookies (tristemente, no las
+          comestibles) para personalizar contenido y anuncios, proporcionar
+          funciones de redes sociales y analizar nuestro tráfico.
+          <a href="#">Leer más...</a>
+        </p>
+        <button id="btnAcepto">Acepto</button>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
