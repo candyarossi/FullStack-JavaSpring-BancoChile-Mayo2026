@@ -23,6 +23,7 @@
 - [Actividad: Manos a la Masa](./Fundamentos-Web/Manos-a-la-masa/)
 - [Repaso de Examen](./Fundamentos-Web/Repaso/)
 - [Extra 1: Diseño de ERD](./Fundamentos-Web/Extra-1/)
+- [Extra 2: Consultas SQL](./Fundamentos-Web/Extra-2/)
 
 <!--
 
