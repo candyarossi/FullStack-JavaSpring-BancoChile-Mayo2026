@@ -24,6 +24,7 @@
 - [Repaso de Examen](./Fundamentos-Web/Repaso/)
 - [Extra 1: Diseño de ERD](./Fundamentos-Web/Extra-1/)
 - [Extra 2: Consultas SQL](./Fundamentos-Web/Extra-2/)
+- [Extra 3: Proyecto DB](./Fundamentos-Web/Extra-3/)
 
 <!--
 
