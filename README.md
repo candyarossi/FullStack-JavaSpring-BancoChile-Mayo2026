@@ -26,17 +26,15 @@
 - [Extra 2: Consultas SQL](./Fundamentos-Web/Extra-2/)
 - [Extra 3: Proyecto DB](./Fundamentos-Web/Extra-3/)
 
-<!--
-
 ## Fundamentos de Java
 
 - [Clase 1: Introducción a Java](./Java/Clase-1/)
-- [Clase 2: Estructuras Compuestas](./Java/Clase-2/)
-- [Clase 3: Clases y Objetos I](./Java/Clase-3/)
-- [Clase 4: Clases y Objetos II](./Java/Clase-4/)
-- [Actividad Práctica](./Java/Practica-Biblioteca/)
-- [Clase 5: Clases y Objetos III](./Java/Clase-5/)
+- [Clase 2: Control de Flujos](./Java/Clase-2/)
+- [Clase 3: Modularización + Estructuras Compuestas](./Java/Clase-3/)
+- [Clase 4: Estructuras Compuestas II](./Java/Clase-4/)
+- [Clase 5: Clases y Objetos](./Java/Clase-5/)
 
+<!--
 ## Bases de Datos
 
 - [Clase 1: Introducción a Bases de Datos](./MySQL/Clase-1/)
