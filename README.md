@@ -33,16 +33,23 @@
 - [Clase 3: Modularización + Estructuras Compuestas](./Java/Clase-3/)
 - [Clase 4: Estructuras Compuestas II](./Java/Clase-4/)
 - [Clase 5: Clases y Objetos](./Java/Clase-5/)
+- [Clase 6: Herencia](./Java/Clase-6/)
+- [Clase 7: Interfaces y Clases Abstractas](./Java/Clase-7/)
 
-<!--
 ## Bases de Datos
 
-- [Clase 1: Introducción a Bases de Datos](./MySQL/Clase-1/)
-- [Clase 1: Normalización (pdf)](<./MySQL/Clase-1/Normalización%20-%20Formas%20Normales%20-%20Banco%20de%20Chile%20(Oct%202025).pdf>)
-- [Clase 2: Diagramas Entidad - Relación](./MySQL/Clase-2/)
-- [Actividad Práctica](./MySQL/Practica-Transporte/)
-- [Clase 3: MySQL Queries I](./MySQL/Clase-3/)
-- [Clase 4: MySQL Queries II](./MySQL/Clase-4/)
+- [Clase 8: Diseño de Bases de Datos](./Java/Clase-8/)
+  - Ejemplo Normalización:
+    1. [Hoja de Cálculo](./Java/Clase-8/Normalizacion-FormasNormales-BancoChile-May2026.pdf)
+    2. [ERD - Modelado MySQL Workbench](./Java/Clase-8/ERD-normalizado.mwb)
+    3. [ERD - Formato PNG](./Java/Clase-8/ERD-normalizado.png)
+    4. [Código SQL](./Java/Clase-8/ERD-normalizado.sql)
+  - Actividad "Gestión de Restaurantes":
+    1. [ERD - Modelado MySQL Workbench](./Java/Clase-8/gestionDeRestaurantes.mwb)
+    2. [ERD - Formato PNG](./Java/Clase-8/gestionDeRestaurantes.png)
+    3. [Código SQL](./Java/Clase-8/gestionDeRestaurantes.sql)
+
+<!--
 
 ## Java / Spring
 
