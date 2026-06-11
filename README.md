@@ -10,8 +10,9 @@
 ## Fundamentos de la Web
 
 - [Clase 0: Fundamentos de la Programación](./Fundamentos-Web/Presentaciones/Clase-0-Skillnest-Java.pdf)
-- [Clase 1: Introducción a la Web](./Fundamentos-Web/Presentaciones/Clase-0-IntroWeb.pdf)
-- [Clase 1: HTML](./Fundamentos-Web/Clase-1/)
+- Clase 1: Introducción a la Web + HTML:
+  1. [Presentación Introducción a la Web](./Fundamentos-Web/Presentaciones/Clase-0-IntroWeb.pdf)
+  2. [Código HTML](./Fundamentos-Web/Clase-1/)
 - [Clase 2: Introducción a CSS](./Fundamentos-Web/Clase-2/)
 - [Clase 3: CSS Avanzado](./Fundamentos-Web/Clase-3/)
 - [Clase 4: Flexbox](./Fundamentos-Web/Clase-4/)
@@ -48,6 +49,9 @@
     1. [ERD - Modelado MySQL Workbench](./Java/Clase-8/gestionDeRestaurantes.mwb)
     2. [ERD - Formato PNG](./Java/Clase-8/gestionDeRestaurantes.png)
     3. [Código SQL](./Java/Clase-8/gestionDeRestaurantes.sql)
+- [Clase 9: SQL Avanzado](./Java/Clase-9/)
+  1. [Queries SQL](./Java/Clase-9/queries-avanzadas.sql)
+  2. [Imagen JOINS](./Java/Clase-9/joins.png)
 
 <!--
 
