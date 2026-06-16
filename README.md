@@ -53,14 +53,14 @@
   1. [Queries SQL](./Java/Clase-9/queries-avanzadas.sql)
   2. [Imagen JOINS](./Java/Clase-9/joins.png)
 
-<!--
+
 
 ## Java / Spring
 
 - [Clase 1: Spring + Rutas](./Spring/Clase-1/)
 - [Clase 2: Rutas GET](./Spring/Clase-2/)
 - [Clase 3: Rutas POST](./Spring/Clase-3/)
-- [Clase 4: Sesiones](./Spring/Clase-4/)
+<!--- [Clase 4: Sesiones](./Spring/Clase-4/)
 - [Clase 5: Spring + SQL](./Spring/Clase-5/)
 - [Clase 6: Spring CRUD I](./Spring/Clase-6/)
 - [Clase 7: Spring CRUD II](./Spring/Clase-7/)
