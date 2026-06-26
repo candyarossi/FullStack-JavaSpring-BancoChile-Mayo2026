@@ -65,7 +65,7 @@
 - [Clase 8: Relaciones 1:1 / Relaciones 1:M](./Spring/Clase-8/)
 - [Clase 9: Relaciones N:M](./Spring/Clase-9/)
 - [Clase 10: Login y Registro](./Spring/Clase-10/)
-<!-- - [Repaso para Examen](./Spring/Repaso/)
-- [Extra 1: Consultas JPQL](./Spring/Extra-1/)
+- [Repaso para Examen](./Spring/Repaso/)
+<!-- - [Extra 1: Consultas JPQL](./Spring/Extra-1/)
 - [Extra 2: Subida de imágenes](./Spring/Extra-2/)
 - [Extra 3: Paginación y Ordenamiento](./Spring/Extra-3/) -->
