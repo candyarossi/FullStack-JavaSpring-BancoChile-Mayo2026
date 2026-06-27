@@ -1,9 +1,12 @@
 package com.javaSpring.examen.models;
 
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import jakarta.validation.constraints.Email;
@@ -36,6 +39,9 @@ public class Usuario {
 
     @Transient
     private String confirmarPassword;
+
+    @OneToMany(mappedBy = "creador")
+    private List<Frase> frases;
 
     public Usuario() {
     }
@@ -95,6 +101,14 @@ public class Usuario {
 
     public void setConfirmarPassword(String confirmarPassword) {
         this.confirmarPassword = confirmarPassword;
+    }
+
+    public void setFrases(List<Frase> frases) {
+        this.frases = frases;
+    }
+
+    public List<Frase> getFrases() {
+        return frases;
     }
 
     @Override
