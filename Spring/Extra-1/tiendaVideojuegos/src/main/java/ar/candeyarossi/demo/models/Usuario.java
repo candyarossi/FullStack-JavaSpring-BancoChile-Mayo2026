@@ -50,7 +50,6 @@ public class Usuario implements Cloneable {
 
 	@OneToOne
 	@JoinColumn(name = "id_videojuego")
-	@Transient
 	private Videojuego miVideojuego;
 
 	@ManyToMany
@@ -111,6 +110,10 @@ public class Usuario implements Cloneable {
 
 	public Long getId() {
 		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public List<Videojuego> getComprados() {

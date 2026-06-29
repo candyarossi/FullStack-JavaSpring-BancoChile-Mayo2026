@@ -60,15 +60,6 @@ public class ServicioUsuarios {
     public HashMap<String, Object> validarLogin(BindingResult validaciones, UsuarioLogin usuarioLogin) {
         HashMap<String, Object> resultado = new HashMap<>();
         Usuario usuarioDB = this.obtenerUsuarioPorEmail(usuarioLogin.getEmail());
-
-        System.out.println(
-                BCrypt.checkpw(
-                        "Abcd1234",
-                        "$2a$10$8S3.8PRovFY4O2QVqNU8yOM10sx5qVJSfCdsKfS5pHSWsrpxaFhSG"));
-
-        System.out.println("Password ingresada: [" + usuarioLogin.getPassword() + "]");
-        System.out.println("Email ingresado: [" + usuarioLogin.getEmail() + "]");
-
         if (usuarioDB == null) {
             validaciones.rejectValue("email", "emailInexistente",
                     "El correo electrónico ingresado no corresponde a un usuario registrado.");

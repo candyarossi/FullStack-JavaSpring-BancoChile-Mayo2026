@@ -163,7 +163,7 @@ public class Videojuego {
 	public String toString() {
 		return "Videojuego [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", portada=" + portada
 				+ ", fecha_lanzamiento=" + fecha_lanzamiento + ", rating=" + rating + ", precio=" + precio
-				+ ", creador=" + creador.getId() + "]";
+				+ ", creador=" + creador + "]";
 	}
 
 	private Double generarPrecioRandom() {
