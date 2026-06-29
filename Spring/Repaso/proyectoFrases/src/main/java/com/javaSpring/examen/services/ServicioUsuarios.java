@@ -1,6 +1,5 @@
 package com.javaSpring.examen.services;
 
-import java.util.HashMap;
 import java.util.List;
 
 import org.mindrot.jbcrypt.BCrypt;
