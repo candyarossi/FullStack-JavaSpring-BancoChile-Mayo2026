@@ -50,7 +50,7 @@ public class ControladorUsuarios {
 		}
 		usuarioDB.setPassword("");
 		sesion.setAttribute("usuario", usuarioDB);
-		return "redirect:/getAll";
+		return "redirect:/getAll?page=1";
 	}
 
 	@PostMapping("/register")
@@ -66,6 +66,6 @@ public class ControladorUsuarios {
 		Usuario nuevoUsuario = usuario.clone();
 		nuevoUsuario.setPassword("");
 		sesion.setAttribute("usuario", nuevoUsuario);
-		return "redirect:/getAll";
+		return "redirect:/getAll?page=1";
 	}
 }

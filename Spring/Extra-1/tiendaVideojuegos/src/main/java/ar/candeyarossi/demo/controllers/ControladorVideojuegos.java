@@ -13,6 +13,7 @@ import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -22,6 +23,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class ControladorVideojuegos implements ManejoDeFechas {
@@ -36,17 +38,25 @@ public class ControladorVideojuegos implements ManejoDeFechas {
 	private ServicioUsuarios servicioUsuarios;
 
 	@GetMapping("/getAll")
-	public String inicio(HttpSession sesion, Model modelo) {
+	public String inicio(HttpSession sesion, Model modelo, @RequestParam(value = "page") int pagina) {
 
+		// this.servicioVideojuegos.pruebasJPQL();
 		Usuario u = (Usuario) sesion.getAttribute("usuario");
 		if (u == null) {
 			return "redirect:/";
 		}
+		Videojuego miVideojuego = this.servicioVideojuegos.obtenerVideojuegoPorUsuario(u.getId());
 		List<Videojuego> misComprados = this.servicioUsuarios.obtenerUsuarioPorId(u.getId()).getComprados();
-		modelo.addAttribute("misComprados", misComprados);
-		List<Videojuego> videojuegos = this.servicioVideojuegos.obtenerTodosLosVideojuegos();
+		Page<Videojuego> paginaActual = servicioVideojuegos.obtenerTodosLosVideojuegos(1, null);
+		List<Videojuego> videojuegos = paginaActual.getContent();
+		int paginasTotales = paginaActual.getTotalPages();
+
+		misComprados.add(miVideojuego);
 		videojuegos.removeAll(misComprados);
+
+		modelo.addAttribute("misComprados", misComprados);
 		modelo.addAttribute("videojuegos", videojuegos);
+		modelo.addAttribute("cantPaginas", paginasTotales);
 		return "videojuegos.jsp";
 	}
 
@@ -108,7 +118,7 @@ public class ControladorVideojuegos implements ManejoDeFechas {
 	@DeleteMapping("/delete/{id}")
 	public String eliminar(@PathVariable("id") Long id) {
 		this.servicioVideojuegos.eliminarVideojuego(id);
-		return "redirect:/getAll";
+		return "redirect:/getAll?page=1";
 	}
 
 	@PostMapping("/comment")
@@ -133,6 +143,6 @@ public class ControladorVideojuegos implements ManejoDeFechas {
 		u.setCoins(Math.round(usuarioModificado.getCoins() * 100.0) / 100.0);
 		sesion.setAttribute("usuario", u);
 
-		return "redirect:/getAll";
+		return "redirect:/getAll?page=1";
 	}
 }

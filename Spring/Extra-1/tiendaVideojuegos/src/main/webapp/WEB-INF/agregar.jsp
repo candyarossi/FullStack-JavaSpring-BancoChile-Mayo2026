@@ -37,6 +37,6 @@
 
         <input type="submit" value="Crear Videojuego">
    </form:form>
-   <a href="/getAll">Volver</a>
+   <a href="/getAll?page=1">Volver</a>
 </body>
 </html>

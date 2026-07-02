@@ -48,6 +48,6 @@
                 <input type="submit" value="Editar Videojuego">
         </form:form>
     </div>
-    <a href="/getAll">Volver</a>
+    <a href="/getAll?page=1">Volver</a>
 </body>
 </html>

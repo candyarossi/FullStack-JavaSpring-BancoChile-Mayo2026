@@ -62,6 +62,11 @@
                          </li>
                     </c:forEach>
                </ul>
+               <div class="paginador">
+                    <c:forEach begin="1" end="${cantPaginas}" var="indice">
+                         <a href="/getAll?page=${indice}">${indice}</a>
+                    </c:forEach>
+               </div>
           </div>
      </div>
      <script src="/js/script.js"></script>

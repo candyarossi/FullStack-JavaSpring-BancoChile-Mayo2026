@@ -48,7 +48,7 @@
             <input type="submit" value="Enviar" />
         </form:form>
 
-        <a href="/getAll">Volver</a>
+        <a href="/getAll?page=1">Volver</a>
     </div>
 </body>
 </html>
